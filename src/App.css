@@ -110,8 +110,8 @@ h1,h2,h3,h4,p{
 }
 .widecard:hover
 {
-  color: #1b1d20;
-  background-color: #ffffff;
+  color: #fff;
+  background-color: green;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 .active
@@ -177,4 +177,8 @@ h1,h2,h3,h4,p{
 }
 .dPsgWe{
   justify-content: center !important;
+}
+.container{
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
