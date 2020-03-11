@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import Cards from './Cards';
 
 class Skills extends Component {
     constructor(props)
@@ -13,11 +14,12 @@ class Skills extends Component {
         return (
             <div className="condiv skills">
             <h1 className="subtopic">My Skills</h1>
-            <ul>
+            {/* <ul>
             {this.state.myskills.map((value)=>{
                 return <li>{value}</li>
             })}
-            </ul>
+            </ul> */}
+            <Cards></Cards>
             </div>
             )
         }

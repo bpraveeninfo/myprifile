@@ -1,13 +1,26 @@
 import React, { Component } from 'react';
-
+import ReactTypingEffect from 'react-typing-effect';
 
 class About extends Component {
+
+    constructor(props)
+    {
+        super(props);
+        this.state={
+            'abouttext':  'UI and Web Developer'
+        };
+    }
+
+
+
+    
     render() {
         return (
             <div className="condiv">
             <h1 className="subtopic">About Me</h1>
             <h4>Hey there,</h4>
             <h1>I'm Praveen Kumar Bandi</h1>
+            <ReactTypingEffect className="typingeffect" text={this.state.abouttext} speed={100} eraseDelay={700}/>
             <h3>UI and Web <u>Developer</u> | UI/UX <u>Designer</u></h3>
             <br></br>
             <p>Experienced Front End (UI) with React Js and PHP Developer with a demonstrated history of working in the information technology and services industry. Skilled in React Js, Javascript, HTML5, CSS3, PHP, WordPress, CakePHP, Yii, Codeigniter, MySql, Angular, and Databases. Strong engineering professional with a Master's Degree focused in Computer Science from JNTU.

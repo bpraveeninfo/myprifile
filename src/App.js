@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+
+
 import {
   BrowserRouter as Router,
   Route,
@@ -10,8 +12,6 @@ import About from './contents/About';
 import Education from './contents/Education';
 import Skills from './contents/Skills';
 import Contact from './contents/Contact';
-
-
 
 function App() {
   return (
