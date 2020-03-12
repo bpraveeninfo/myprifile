@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import profilepic from '../img/profile_small.png';
-import bannerimage from '../img/comakeit.jpg';
+import bannerimage from '../img/developers-01.jpg';
 import Social from '../components/Social';
 import ResizeImage from 'react-resize-image';
 
@@ -19,7 +19,15 @@ class Home extends Component {
 
             <div className="card-group">
                 <div className="card">
-                    <img src={bannerimage} class="card-img-top" alt="..."/>
+                    {/* <img src={bannerimage} class="card-img-top" alt="..."/> */}
+                  
+                    <ResizeImage
+                   
+                   src={bannerimage} 
+                   alt="Praveen Kumar Bandi"
+                   
+                   options={{ height: 10}}
+               />
                     <div className="card-body author-area">
                     <ResizeImage
                    
@@ -30,7 +38,9 @@ class Home extends Component {
                     />
 
                     {/* <img src={profilepic} class="card-img-top" alt="..." options={{ width:20 }}/> */}
-                    <h3 className="card-title">Praveen Kumar Bandi</h3>
+                  
+                    <h3 className="card-title">About Me</h3>
+                    <ReactTypingEffect className="typingeffect" text={['I am Praveen Kumar Bandi','I am a UI and Web Developer']} speed={100} eraseDelay={700}></ReactTypingEffect>
                     <h5>UI and Web <u>Developer</u> | UI/UX <u>Designer</u></h5>
                     <p className="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>

@@ -185,6 +185,8 @@ h1,h2,h3,h4,p{
 
  .author-area, .card-body img{
   text-align: center !important;
+  box-shadow: 2px 3px 2px 2px #e3e3e3;
+  border-radius: 5px;
 }
 .card-body img{
   border-radius: 50%;
