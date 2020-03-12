@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Navitem from './Navitem';
 import 'bootstrap/dist/css/bootstrap.css';
-// import 'bootstrap/dist/js/bootstrap.min';
 
 class Navbar extends Component {
     constructor(props)
