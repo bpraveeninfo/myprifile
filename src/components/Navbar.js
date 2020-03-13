@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navitem from './Navitem';
 import 'bootstrap/dist/css/bootstrap.css';
-
+import bpkimage from '../img/bpkprofile.jpg';
 class Navbar extends Component {
     constructor(props)
     {
@@ -23,7 +23,7 @@ class Navbar extends Component {
         return (
             
             <nav className="navbar  navbar-light bg-light">
-                <a class="navbar-brand" href="http://bandipraveen.com/">BPK</a>
+                <a class="navbar-brand" href="http://bandipraveen.com/"><img src={bpkimage} class="card-img-top" alt="Praveen Kumar"/></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>

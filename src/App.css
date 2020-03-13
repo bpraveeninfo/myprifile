@@ -27,7 +27,7 @@ body{
 {
   /* padding:60px 30px 0px 30px ;
   flex:var(--sidebar-flex); */
-  background: rgb(118, 238, 103);
+  background:#83C332;
   background: linear-gradient(180deg, rgba(118, 238, 103) 50%, rgba(132,124,252,1) 80%);
 } 
 .condiv
@@ -111,7 +111,7 @@ h1,h2,h3,h4,p{
 .widecard:hover
 {
   color: #fff;
-  background-color: green;
+  background-color: #83C332;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 .active
@@ -137,7 +137,7 @@ h1,h2,h3,h4,p{
   .sidebar
   {
     padding: 30px;
-    background: rgb(118, 238, 103);
+    background: #83C332;
     background: linear-gradient(90deg, rgba(118, 238, 103) 50%, rgba(132,124,252,1) 80%);
   }
   .condiv
@@ -176,13 +176,13 @@ h1,h2,h3,h4,p{
   }
 }
 .dPsgWe span{
-  color: green;
+  color:#83C332;
 
 }
 
 .bCXxcO:hover{
   color: #fff;
-  background: green;
+  background: #83C332;
 }
 .dPsgWe{
   justify-content: center !important;
@@ -209,4 +209,12 @@ h1,h2,h3,h4,p{
 }
 .navbar-light .navbar-nav .nav-link{
   color: #ffffff;
+}
+.row{
+margin: 5%;
+padding-left: 15px;
+padding-right: 15px;
+}
+.webiste-status{
+  float: right;
 }
