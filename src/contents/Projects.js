@@ -11,6 +11,9 @@ import kentmskclinic from '../img/pimages/kentmskclinic.png';
 import ritypropmart from '../img/pimages/ritypropmart.png';
 import community from '../img/pimages/community.png';
 import sankrantihotels from '../img/pimages/sankrantihotels.png';
+import veedesignstudio from '../img/pimages/veedesignstudio.png';
+import viscenario from '../img/pimages/viscenario.png';
+import greentechco from '../img/pimages/greentechco.png';
 class Projects extends Component {
     
 
@@ -28,18 +31,18 @@ class Projects extends Component {
                                 <h6>Continuous Product Innovation</h6>
                                 <div><a href="https://www.comakeit.com/"  target="_blank" className="btn btn-success">View Website</a>
                                    
-                                    <a class="btn btn-success webiste-status" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">  Online  </a>
+                                    <a class="btn btn-success webiste-status" data-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="collapseExample">  Online  </a>
                                 </div>
                                 </div>                                               
                             </div>
                             </div>
                             <div class="col-sm">
                             <div className="card">
-                                <img src={community} class="card-img-top"  alt="..."/>
-                                <div className="card-body"><h5 className="card-title">coMakeIT Community </h5>
-                                    <p className="card-text">coMakeIT Community.</p>
-                                    <a href="https://www.comakeit.com/" target="_blank" className="btn btn-success">View Website </a>
-                                    <a class="btn btn-danger webiste-status" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">  Online  </a>
+                                <img src={viscenario} class="card-img-top"  alt="..."/>
+                                <div className="card-body"><h5 className="card-title">Viscenario </h5>
+                                    <p className="card-text"> Viscenario – Mobile platform for Collaboration in projects,</p>
+                                    <a href="https://www.viscenario.com" target="_blank" className="btn btn-success">View Website </a>
+                                    <a class="btn btn-success webiste-status" data-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="collapseExample">  Online  </a>
                                 </div>                     
                             
                             </div>
@@ -47,10 +50,10 @@ class Projects extends Component {
                             <div class="col-sm">
                             <div className="card">
                             <img src={fourids} class="card-img-top"  alt="..."/>
-                                <div className="card-body"><h5 className="card-title">coMakeIT</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="wwww.4ids.in" target="_blank" className="btn btn-success">View Website</a>
-                                    <a class="btn btn-success webiste-status" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">  Online  </a>
+                                <div className="card-body"><h5 className="card-title">4Ids.in</h5>
+                                    <p className="card-text">Interactive Design Services</p>
+                                    <a href="http://4ids.in/" target="_blank" className="btn btn-success">View Website</a>
+                                    <a class="btn btn-success webiste-status" data-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="collapseExample">  Online  </a>
                                 </div>                     
                             
                             </div>
@@ -58,9 +61,9 @@ class Projects extends Component {
                             <div class="col-sm">
                             <div className="card">
                             <img src={coservesolutions} class="card-img-top"  alt="..."/>
-                                <div className="card-body"><h5 className="card-title">coMakeIT</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="wwww.coservesolutions.com" target="_blank" className="btn btn-success">View Website</a>
+                                <div className="card-body"><h5 className="card-title">Coservesolutions</h5>
+                                    <p className="card-text">Salesforce Cloud ERP, Quality Management Software</p>
+                                    <a href="https://www.coservesolutions.com" target="_blank" className="btn btn-success">View Website</a>
                                     <a class="btn btn-success webiste-status" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">  Online  </a>
                                 </div>                     
                             
@@ -71,9 +74,9 @@ class Projects extends Component {
                             <div class="col-sm">
                             <div className="card">
                                 <img src={apsecm} class="card-img-top" alt="..." />
-                                <div className="card-body"><h5 className="card-title">coMakeIT</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="https://www.apsecm.ap.govt.in.com/"  target="_blank" className="btn btn-success">View Website</a>
+                                <div className="card-body"><h5 className="card-title">AP SECM Govt AP</h5>
+                                    <p className="card-text"> Andhra Pradesh State Energy Conservation Mission & APSECM The Soul of Andhra Pradesh Energy Conservation</p>
+                                    <a href="http://www.apsecm.ap.gov.in/"  target="_blank" className="btn btn-success">View Website</a>
                                     <a class="btn btn-success webiste-status" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">  Online  </a>
                                 </div>                     
                             
@@ -82,8 +85,8 @@ class Projects extends Component {
                             <div class="col-sm">
                             <div className="card">
                                 <img src={desimechi} class="card-img-top"  alt="..."/>
-                                <div className="card-body"><h5 className="card-title">coMakeIT</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div className="card-body"><h5 className="card-title">Desimechi</h5>
+                                    <p className="card-text">The cooklest Bike Services</p>
                                     <a href="https://www.desimechi.com/" target="_blank" className="btn btn-success">View Website </a>
                                     <a class="btn btn-success webiste-status" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">  Online  </a>
                                 </div>                     
@@ -93,9 +96,9 @@ class Projects extends Component {
                             <div class="col-sm">
                             <div className="card">
                             <img src={kentmskclinic} class="card-img-top"  alt="..."/>
-                                <div className="card-body"><h5 className="card-title">coMakeIT</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="wwww.kentmskclinic.co.in" target="_blank" className="btn btn-success">View Website</a>
+                                <div className="card-body"><h5 className="card-title">Kent MSK Clinic</h5>
+                                    <p className="card-text">Cortisone Injection - Kent MSK Clinic London </p>
+                                    <a href="https://www.kentmskclinic.co.uk/" target="_blank" className="btn btn-success">View Website</a>
                                     <a class="btn btn-success webiste-status" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">  Online  </a>
                                 </div>                     
                             
@@ -104,9 +107,9 @@ class Projects extends Component {
                             <div class="col-sm">
                             <div className="card">
                             <img src={ritypropmart} class="card-img-top"  alt="..."/>
-                                <div className="card-body"><h5 className="card-title">coMakeIT</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="www.ritypropmart.com" target="_blank" className="btn btn-success">View Website</a>
+                                <div className="card-body"><h5 className="card-title">Ritypropmart</h5>
+                                    <p className="card-text">Rity Propmart: An ISO 9001:2008 Certified Real estate company | We care your investment</p>
+                                    <a href="http://www.ritypropmart.com" target="_blank" className="btn btn-success">View Website</a>
                                     <a class="btn btn-success webiste-status" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">  Online  </a>
                                 </div>                     
                             
@@ -117,9 +120,9 @@ class Projects extends Component {
                             <div class="col-sm">
                             <div className="card">
                                 <img src={sankrantihotels} class="card-img-top" alt="..." />
-                                <div className="card-body"><h5 className="card-title">coMakeIT</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="https://www.sankrantihotels.com/"  target="_blank" className="btn btn-success">View Website</a>
+                                <div className="card-body"><h5 className="card-title">Sankranti Hotels</h5>
+                                    <p className="card-text">Take and Eat Indian Food</p>
+                                    <a href="http://www.sankrantihotels.com/"  target="_blank" className="btn btn-success">View Website</a>
                                     <a class="btn btn-success webiste-status" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">  Online  </a>
                                 </div>                     
                             
@@ -127,10 +130,21 @@ class Projects extends Component {
                             </div>
                             <div class="col-sm">
                             <div className="card">
-                                <img src={desimechi} class="card-img-top"  alt="..."/>
-                                <div className="card-body"><h5 className="card-title">coMakeIT</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="https://www.desimechi.com/" target="_blank" className="btn btn-success">View Website </a>
+                                <img src={community} class="card-img-top"  alt="..."/>
+                                <div className="card-body"><h5 className="card-title">coMakeIT Community</h5>
+                                    <p className="card-text">coMakeIT Knowledge Platform #learn #ask #share.</p>
+                                    <a href="https://community.comakeit.net/" target="_blank" className="btn btn-success">View Website </a>
+                                    <a class="btn btn-danger webiste-status" data-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="collapseExample">  Offline  </a>
+                                </div>                     
+                            
+                            </div>
+                            </div>
+                            <div class="col-sm">
+                            <div className="card">
+                            <img src={greentechco} class="card-img-top"  alt="..."/>
+                                <div className="card-body"><h5 className="card-title">Green Techco</h5>
+                                    <p className="card-text"> GreenTech Solutions LED Lighting and Solar System Kuwait</p>
+                                    <a href="https://www.greentechco.com/" target="_blank" className="btn btn-success">View Website</a>
                                     <a class="btn btn-success webiste-status" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">  Online  </a>
                                 </div>                     
                             
@@ -138,22 +152,11 @@ class Projects extends Component {
                             </div>
                             <div class="col-sm">
                             <div className="card">
-                            <img src={kentmskclinic} class="card-img-top"  alt="..."/>
-                                <div className="card-body"><h5 className="card-title">coMakeIT</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" target="_blank" className="btn btn-success">View Website</a>
-                                    <a class="btn btn-success webiste-status" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">  Online  </a>
-                                </div>                     
-                            
-                            </div>
-                            </div>
-                            <div class="col-sm">
-                            <div className="card">
-                            <img src={ritypropmart} class="card-img-top"  alt="..."/>
-                                <div className="card-body"><h5 className="card-title">coMakeIT</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" target="_blank" className="btn btn-success">View Website</a>
-                                    <a class="btn btn-success webiste-status" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">  Online  </a>
+                            <img src={veedesignstudio} class="card-img-top"  alt="..."/>
+                                <div className="card-body"><h5 className="card-title">Veedesign Studio</h5>
+                                    <p className="card-text">VeeDesignStudio Interior Design</p>
+                                    <a href="https://www.veedesignstudio.com/" target="_blank" className="btn btn-success">View Website</a>
+                                    <a class="btn btn-success webiste-status" data-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="collapseExample">  Online  </a>
                                 </div>                     
                             
                             </div>
