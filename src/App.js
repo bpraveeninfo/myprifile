@@ -9,7 +9,8 @@ import {
 import Navbar from './components/Navbar';
 import Home from './contents/Home';
 import About from './contents/About';
-import Education from './contents/Education';
+import Education from './contents/Education'; 
+import Experinces from './contents/Experinces'; 
 import Skills from './contents/Skills';
 import Contact from './contents/Contact';
 import Projects from './contents/Projects';
@@ -24,6 +25,10 @@ function App() {
     </Route>
     <Route path="/about">
     <About />
+    
+    </Route>
+    <Route path="/experinces">
+    <Experinces />
     </Route>
     <Route path="/education">
     <Education />
